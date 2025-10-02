@@ -5,10 +5,8 @@ public class wifiKampus15 {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String jenisPengguna;
-        int jumlahSks;
-        String pesanAkses;
         System.out.println("--- Cek Akses WIFI Kampus ---");
-        System.out.println("Masukkan jenis pengguna (dosen/mahasiswa/lain): ");
+        System.out.println("Masukkan jenis pengguna (dosen/mahasiswa): ");
         jenisPengguna = sc.nextLine().toLowerCase();
         if (jenisPengguna.equalsIgnoreCase("mahasiswa")) {
             System.out.println("Masukkan jumlah SKS yang diambil");
